@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # Permite que o GITHUB_TOKEN faça push na branch gh-pages
+  contents: write    # Permite que o GITHUB_TOKEN faça push na branch gh-pages
 
 jobs:
   build:
