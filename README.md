@@ -48,9 +48,9 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 > Além de fazer o upload de arquivos prontos, você também pode criar arquivos diretamente no GitHub sem precisar fazer o upload. Isso é útil se você quiser criar um arquivo .tex do zero ou editar algo diretamente na interface do GitHub.
 > Basta escolher "Create new file" e adicionar a extensão do arquivo .tex.
 
-3.3 Configurar o Workflow de Compilação LaTeX
+#### 3.3 Configurar o Workflow de Compilação LaTeX
 
-3.3.1 Criar a Pasta do Workflow
+##### 3.3.1 Criar a Pasta do Workflow
 - No seu repositório, clique no botão `"Add file"` e escolha `"Create new file"`.
 - No campo de nome do arquivo, digite `.github/workflows/latex.yml`. Isso criará automaticamente a pasta `.github/workflows` e o arquivo `latex.yml`.
 
