@@ -55,7 +55,7 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - No campo de nome do arquivo, digite `.github/workflows/latex.yml`. Isso criará automaticamente a pasta `.github/workflows` e o arquivo `latex.yml`.
 
 ##### 3.3.2 Adicionar o Conteúdo do Workflow
-No editor de texto que aparecer, cole o código abaixo para `compilar um único arquivo **.tex**`. Essa opção compila apenas um arquivo **.tex** por vez, sendo ideal para projetos pequenos ou para situações em que é necessário processar arquivos individualmente. O tempo de execução costuma ser mais rápido, levando cerca de 1 minuto, já que o workflow lida apenas com um único arquivo. Essa abordagem pode ser usada tanto em repositórios privados quanto públicos.
+No editor de texto que aparecer, cole o código abaixo para `compilar um único arquivo .tex`. Essa opção compila apenas um arquivo **.tex** por vez, sendo ideal para projetos pequenos ou para situações em que é necessário processar arquivos individualmente. O tempo de execução costuma ser mais rápido, levando cerca de 1 minuto, já que o workflow lida apenas com um único arquivo. 
 
 ```yaml
 name: Compile LaTeX to PDF
@@ -83,7 +83,7 @@ jobs:
           name: pdf
           path: cod_test.pdf  # Nome do PDF gerado
 ```
-Se você quiser `compilar vários arquivos **.tex**` em um mesmo repositório, use o código abaixo. Essa opção permite compilar vários arquivos **.tex** dentro do mesmo repositório. Como envolve múltiplas etapas, o tempo de execução do workflow é maior, pois exige mais processamento e recursos. O processo segue estas etapas:
+Se você quiser `compilar vários arquivos .tex` em um mesmo repositório, use o código abaixo. Essa opção permite compilar vários arquivos **.tex** dentro do mesmo repositório. Como envolve múltiplas etapas, o tempo de execução do workflow é maior, pois exige mais processamento e recursos. O processo segue estas etapas:
 
 - Instalação de todos os pacotes LaTeX necessários para a compilação.
 - Compilação de cada arquivo **.tex** individualmente.
@@ -143,6 +143,17 @@ jobs:
           GIT_CONFIG_NAME: github-actions-bot
           GIT_CONFIG_EMAIL: bot@noreply.github.com
 ```
+Há quatro arquivos de exemplo utilizando a segunda opção, nomeados da seguinte forma:
+
+- `cod_article.tex`: Exemplo de um artigo em LaTeX.
+- `cod_beamer.tex`: Exemplo de uma apresentação Beamer.
+- `cod_letter.tex`: Exemplo de uma carta em LaTeX.
+- `cod_report.tex`: Exemplo de um relatório em LaTeX.
+  
+Esses arquivos demonstram diferentes tipos de documentos que podem ser compilados automaticamente utilizando o workflow configurado.
+
+> [!WARNING]  
+> Ambas as abordagens podem ser utilizadas em repositórios privados ou públicos.
 
 ##### 3.3.3 Verificar se o Workflow Funcionou
 Depois de configurar o workflow e fazer um push no repositório, é importante verificar se tudo funcionou corretamente. Aqui está como você pode fazer isso:
