@@ -36,7 +36,7 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - Clique em `"Create repository"`.
 
 > [!TIP]
-> Apesar do README ser opcional, ele é importante para documentar e explicar o seu repositório. Ele funciona como a "porta de entrada" do projeto, ajudando outras pessoas (e até você no futuro) a entender rapidamente do que se trata o código ou como utilizá-lo.
+> Apesar do **README** ser opcional, ele é importante para documentar e explicar o seu repositório. Ele funciona como a `"porta de entrada"` do projeto, ajudando outras pessoas (e até você no futuro) a entender rapidamente do que se trata o código ou como utilizá-lo.
 
 #### 3.2 Adicionar Arquivos .tex ao Repositório
 - No repositório criado, clique no botão `"Add file"` no canto superior direito;
@@ -45,8 +45,8 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - Clique em `"Commit changes"` para salvar as alterações;
 
 > [!NOTE]  
-> Além de fazer o upload de arquivos prontos, você também pode criar arquivos diretamente no GitHub sem precisar fazer o upload. Isso é útil se você quiser criar um arquivo .tex do zero ou editar algo diretamente na interface do GitHub.
-> Basta escolher "Create new file" e adicionar a extensão do arquivo .tex.
+> Além de fazer o upload de arquivos prontos, você também pode criar arquivos diretamente no GitHub sem precisar fazer o upload. Isso é útil se você quiser criar um arquivo **.tex** do zero ou editar algo diretamente na interface do GitHub.
+> Basta escolher `"Create new file"` e adicionar a extensão do arquivo **.tex**.
 
 #### 3.3 Configurar o Workflow de Compilação LaTeX
 
@@ -54,7 +54,8 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - No seu repositório, clique no botão `"Add file"` e escolha `"Create new file"`.
 - No campo de nome do arquivo, digite `.github/workflows/latex.yml`. Isso criará automaticamente a pasta `.github/workflows` e o arquivo `latex.yml`.
 
-
+##### 3.3.2 Adicionar o Conteúdo do Workflow
+No editor de texto que aparecer, cole o código abaixo para compilar um único arquivo **.tex**:
 
 
 
