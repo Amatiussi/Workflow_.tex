@@ -1,4 +1,5 @@
-# Automatize a Compilação de LaTeX com GitHub Actions: Como compilar documentos LaTeX diretamente no GitHub, sem precisar de instalações locais.
+# Automatize a Compilação de LaTeX com GitHub Actions: 
+## Como compilar documentos LaTeX diretamente no GitHub, sem precisar de instalações locais.
 
 Este tutorial explica como configurar seu repositório no GitHub para compilar arquivos LaTeX diretamente na plataforma, sem a necessidade de instalar compiladores no seu computador. Com o GitHub Actions, você pode automatizar a compilação de documentos LaTeX em PDFs sempre que fizer alterações no repositório.
 
@@ -26,5 +27,8 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - `Compatibilidade`: O GitHub Actions usa máquinas virtuais com Ubuntu, garantindo que a compilação funcione de forma consistente, independentemente do sistema operacional que você usa.
 
 ## 3. Passo a Passo para Configurar o Workflow de Compilação LaTeX
+
+
+
 
 
