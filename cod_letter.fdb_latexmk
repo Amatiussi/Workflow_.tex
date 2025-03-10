@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1741639038.81702 "./cod_letter.tex" "out/cod_letter.pdf" "cod_letter" 1741639039.12063 0
+  "./cod_letter.tex" 1741638639.90032 491 09f8f1389f96fab22756ae53ab106451 ""
+  "/etc/texmf/web2c/texmf.cnf" 1740949936.25306 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazilian.ldf" 1625860693 6597 42365ae9d65bdf8ee8f1d7ffb5499d5b ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1704662920 150008 7a05b0fdc0167c04e192003e780ab195 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian.tex" 1656274800 339 7976080f9a61f733c8810be52a5b6798 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-pt-BR.ini" 1666557646 4550 1f8aa8e0148d8a21ebf02f586bbb2fc0 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def" 1704662920 6948 df63e25be1d2bc35bbad5a0141f41348 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1705352648 5048 425739d70251273bf93e3d51f3c40048 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls" 1705352648 13728 00a8fec9800693697d85a009120ef1ef ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741638905.26849 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741639022 8213997 ebe6e9bff126328df3b2c44dede9e52e ""
+  "cod_letter.tex" 1741638639.90032 491 09f8f1389f96fab22756ae53ab106451 ""
+  "out/cod_letter.aux" 1741639039.1015 246 f7c24f0e765b3b311f74af81ae090fab "pdflatex"
+  (generated)
+  "out/cod_letter.aux"
+  "out/cod_letter.log"
+  "out/cod_letter.pdf"
+  (rewritten before read)
