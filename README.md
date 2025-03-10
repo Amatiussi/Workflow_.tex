@@ -158,6 +158,12 @@ Depois de configurar o workflow e fazer um push no repositório, é importante v
   - ❌ `Failed`: O workflow falhou. Nesse caso, você pode clicar na execução para ver os detalhes do erro.
   - 🟡 `In Progress`: O workflow ainda está em execução. Aguarde alguns instantes e atualize a página.
 
+> [!CAUTION]
+> Se o workflow falhar (❌ `Failed`), verifique os logs detalhados clicando na execução. Alguns erros comuns incluem:
+> - Pacotes ausentes: Certifique-se de que todas as dependências LaTeX estão instaladas corretamente.
+> - Caminho incorreto para o arquivo .tex: Confirme que o nome do arquivo no workflow corresponde ao do repositório.
+> - Erros de sintaxe no LaTeX: Caso a compilação falhe, revise o código .tex e corrija eventuais erros antes de tentar novamente.
+
 **Passo 3: Acessar os Detalhes da Execução**
 - Clique na execução mais recente (aquela com o status `Success`).
 - Isso abrirá uma página com os detalhes da execução, incluindo:
