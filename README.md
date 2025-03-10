@@ -57,9 +57,27 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 ##### 3.3.2 Adicionar o Conteúdo do Workflow
 No editor de texto que aparecer, cole o código abaixo para compilar um único arquivo **.tex**:
 
+```yaml
+nome: Compile LaTeX to PDF
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+```
 
-
-
+```
+nome: Compile LaTeX to PDF
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+```
 
 
 
