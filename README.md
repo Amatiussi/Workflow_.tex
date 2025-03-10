@@ -55,7 +55,7 @@ No contexto deste tutorial, usaremos o GitHub Actions para configurar um workflo
 - No campo de nome do arquivo, digite `.github/workflows/latex.yml`. Isso criará automaticamente a pasta `.github/workflows` e o arquivo `latex.yml`.
 
 ##### 3.3.2 Adicionar o Conteúdo do Workflow
-No editor de texto que aparecer, cole o código abaixo para compilar um único arquivo **.tex**. Essa opção compila apenas um arquivo **.tex** por vez, sendo ideal para projetos pequenos ou para situações em que é necessário processar arquivos individualmente. O tempo de execução costuma ser mais rápido, levando cerca de 1 minuto, já que o workflow lida apenas com um único arquivo. Essa abordagem pode ser usada tanto em repositórios privados quanto públicos.
+No editor de texto que aparecer, cole o código abaixo para `compilar um único arquivo **.tex**`. Essa opção compila apenas um arquivo **.tex** por vez, sendo ideal para projetos pequenos ou para situações em que é necessário processar arquivos individualmente. O tempo de execução costuma ser mais rápido, levando cerca de 1 minuto, já que o workflow lida apenas com um único arquivo. Essa abordagem pode ser usada tanto em repositórios privados quanto públicos.
 
 ```yaml
 name: Compile LaTeX to PDF
@@ -83,12 +83,15 @@ jobs:
           name: pdf
           path: cod_test.pdf  # Nome do PDF gerado
 ```
-Se você quiser compilar vários arquivos **.tex** em um mesmo repositório, use o código abaixo. Essa opção permite compilar vários arquivos **.tex** dentro do mesmo repositório. Como envolve múltiplas etapas, o tempo de execução do workflow é maior, pois exige mais processamento e recursos. O processo segue estas etapas:
+Se você quiser `compilar vários arquivos **.tex**` em um mesmo repositório, use o código abaixo. Essa opção permite compilar vários arquivos **.tex** dentro do mesmo repositório. Como envolve múltiplas etapas, o tempo de execução do workflow é maior, pois exige mais processamento e recursos. O processo segue estas etapas:
 
 - Instalação de todos os pacotes LaTeX necessários para a compilação.
 - Compilação de cada arquivo **.tex** individualmente.
 
 Se os arquivos forem complexos, contiverem muitas dependências, gráficos ou referências cruzadas, o tempo de execução pode aumentar. De modo geral, esse processo pode levar entre 5 e 10 minutos, dependendo do tamanho e da complexidade dos arquivos.
+
+> [!IMPORTANT]  
+> Com essa opção, é possível compilar qualquer tipo de documento, seja Beamer, artigo ou outros formatos suportados pelo LaTeX.
 
 ```yaml
 name: Deploy Multiple PDFs
@@ -151,10 +154,9 @@ Depois de configurar o workflow e fazer um push no repositório, é importante v
 **Passo 2: Verificar o Status do Workflow**
 - Na lista de workflows, procure pela execução mais recente (geralmente a primeira da lista).
 - O status do workflow será exibido ao lado do nome da execução. Você verá um dos seguintes status:
-
-- ✅ Success: O workflow foi executado com sucesso.
-- ❌ Failed: O workflow falhou. Nesse caso, você pode clicar na execução para ver os detalhes do erro.
-- 🟡 In Progress: O workflow ainda está em execução. Aguarde alguns instantes e atualize a página.
+  - ✅ `Success`: O workflow foi executado com sucesso.
+  - ❌ `Failed`: O workflow falhou. Nesse caso, você pode clicar na execução para ver os detalhes do erro.
+  - 🟡 `In Progress`: O workflow ainda está em execução. Aguarde alguns instantes e atualize a página.
 
 **Passo 3: Acessar os Detalhes da Execução**
 - Clique na execução mais recente (aquela com o status `Success`).
