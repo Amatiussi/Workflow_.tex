@@ -170,4 +170,16 @@ Depois de configurar o workflow e fazer um push no repositório, é importante v
 - Clique no nome do artifact para baixar o arquivo. Ele será baixado como um arquivo `.zip`.
 - Extraia o arquivo `.zip` para acessar o PDF gerado.
 
+## Fim! 
+Ao seguir este tutorial, você aprendeu a automatizar a compilação de documentos LaTeX diretamente no GitHub utilizando o GitHub Actions. Com essa abordagem, não é necessário instalar compiladores localmente, garantindo um fluxo de trabalho mais eficiente e acessível.
 
+Agora, sempre que você fizer alterações nos arquivos .tex do repositório, o GitHub Actions cuidará da compilação automaticamente, gerando PDFs prontos para uso. Isso facilita a colaboração em projetos acadêmicos, artigos científicos e qualquer outro documento que utilize LaTeX.
+
+> [!NOTE]  
+> Se precisar de mais personalizações no workflow ou encontrar algum erro, a aba `"Actions"` no GitHub será sua principal aliada para monitorar execuções e depurar possíveis problemas. 
+
+Além disso, você pode expandir esse workflow para incluir outras automações, como a publicação automática dos PDFs gerados em GitHub Pages. 
+
+Caso tenha dúvidas ou queira aprimorar ainda mais seu workflow, a documentação oficial do [GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/quickstart) oferece recursos detalhados para explorar novas possibilidades.
+
+🚀 Agora é só colocar em prática e automatizar sua compilação LaTeX! 🚀
