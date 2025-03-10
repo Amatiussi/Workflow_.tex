@@ -176,9 +176,7 @@ Ao seguir este tutorial, você aprendeu a automatizar a compilação de document
 Agora, sempre que você fizer alterações nos arquivos .tex do repositório, o GitHub Actions cuidará da compilação automaticamente, gerando PDFs prontos para uso. Isso facilita a colaboração em projetos acadêmicos, artigos científicos e qualquer outro documento que utilize LaTeX.
 
 > [!NOTE]  
-> Se precisar de mais personalizações no workflow ou encontrar algum erro, a aba `"Actions"` no GitHub será sua principal aliada para monitorar execuções e depurar possíveis problemas. 
-
-Além disso, você pode expandir esse workflow para incluir outras automações, como a publicação automática dos PDFs gerados em GitHub Pages. 
+> Se precisar de mais personalizações no workflow ou encontrar algum erro, a aba `"Actions"` no GitHub será sua principal aliada para monitorar execuções e depurar possíveis problemas. Além disso, você pode expandir esse workflow para incluir outras automações, como a publicação automática dos PDFs gerados em GitHub Pages. 
 
 Caso tenha dúvidas ou queira aprimorar ainda mais seu workflow, a documentação oficial do [GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/quickstart) oferece recursos detalhados para explorar novas possibilidades.
 
